@@ -1,0 +1,39 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row: 0;
+    margin-left:8%;
+    padding: 15px;
+}
+
+.obrazek{
+    width: 300px;
+    height: 210px;
+}
+
+
+@keyframes zoom {
+    from{
+width: 300px;
+height: 210px;
+    }
+    to{
+transform: scale(-1);
+    }
+}
+.obrazek:hover{
+    animation-name: zoom;
+    animation-duration: 1500ms;
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+.color{
+    background-color:rgb(190, 187, 187);
+}
+.zmiana{
+    margin-left: 36.8%;
+    position: absolute;
+}
